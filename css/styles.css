@@ -1,0 +1,193 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 1% 0% 2%;
+  text-align: left;
+}
+
+body {
+  text-align: center;
+  font-family: 'Montserrat';
+}
+
+/* heading */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.big-heading {
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+p {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #1B2430;
+
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* navbar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: 'ubuntu';
+  font-size: 5 rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+}
+
+/* download buttons */
+.custom-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* main image  */
+.title-image {
+
+
+  transform: rotate(25deg);
+  position: absolute;
+  right: 23%;
+
+}
+
+/* features-section  */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+
+}
+
+.feature-box {
+
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonial section */
+#testimonials {
+
+
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 25%;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  line-height: 1.5;
+  font-size: 3 rem;
+}
+
+#press {
+  background-color: #ef8172;
+
+  padding: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 15px;
+
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+
+
+}
+
+.feature-title {
+  font-size: 1.5 rem;
+}
+
+.features-dog {
+  color: #212529;
+}
+
+.price-text {
+  line-height: 1.5;
+  font-size: 3 rem;
+}
+
+.pricing-column {
+  padding: 2% 3%;
+
+}
+
+.section-heading {
+  line-height: 1.5;
+  font-size: 3 rem;
+
+}
+
+@media(max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta {
+
+
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 3% 25%;
+}
+
+#footer {
+
+  padding: 7% 25%;
+  background-color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2.5;
+  color: #212529;
+}
+
+.social {
+  margin: 20px 10px;
+  width: 0.5625em;
+}
